@@ -1,13 +1,12 @@
 "use client";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 const AiMonez = () => {
   return (
@@ -33,15 +32,15 @@ const AiMonez = () => {
 
                     <div className="flex -space-x-3">
                       <Avatar className="h-14 w-14 border-[3px] border-background">
-                        <AvatarImage src="/emily-witherspoon.png" />
+                        <AvatarImage src="emily-witherspoon.png" />
                         <AvatarFallback>EW</AvatarFallback>
                       </Avatar>
                       <Avatar className="h-14 w-14 border-[3px] border-background">
-                        <AvatarImage src="/joey-tribiani.png" />
+                        <AvatarImage src="joey-tribiani.png" />
                         <AvatarFallback>JT</AvatarFallback>
                       </Avatar>
                       <Avatar className="h-14 w-14 border-[3px] border-background">
-                        <AvatarImage src="/rachel.png" />
+                        <AvatarImage src="rachel.png" />
                         <AvatarFallback>RA</AvatarFallback>
                       </Avatar>
                       <Avatar className="h-14 w-14 border-[3px] border-background">

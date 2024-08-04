@@ -74,7 +74,7 @@ const NavBar = () => {
               />
               <div className="flex items-center gap-2">
                 <Avatar className="rounded-lg">
-                  <AvatarImage className="rounded-lg" src="/emma-parson.png" />
+                  <AvatarImage className="rounded-lg" src="emma-parson.png" />
                   <AvatarFallback className="rounded-lg">SM</AvatarFallback>
                 </Avatar>
                 <div className="text-xs font-medium">
